@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4060C91C25171F96009E4681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060C91225171F96009E4681 /* ViewController.swift */; };
+		4060C91D25171F96009E4681 /* SignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060C91325171F96009E4681 /* SignatureViewController.swift */; };
+		4060C91E25171F96009E4681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4060C91425171F96009E4681 /* Assets.xcassets */; };
+		4060C91F25171F96009E4681 /* THANEKAR copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4060C91525171F96009E4681 /* THANEKAR copy.png */; };
+		4060C92025171F96009E4681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4060C91625171F96009E4681 /* Main.storyboard */; };
+		4060C92125171F96009E4681 /* FORM16_16_BHAGWAN S.PAWAR (1269)_2019-20.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4060C91825171F96009E4681 /* FORM16_16_BHAGWAN S.PAWAR (1269)_2019-20.pdf */; };
+		4060C92225171F96009E4681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060C91925171F96009E4681 /* AppDelegate.swift */; };
+		4060C92325171F96009E4681 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4060C91A25171F96009E4681 /* Info.plist */; };
+		4060C92425171F96009E4681 /* PDFViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060C91B25171F96009E4681 /* PDFViewerController.swift */; };
+		40802FEE24F82DE1003DDF1A /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40802FED24F82DE1003DDF1A /* PDFKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26ECD3371E874B5C00380F56 /* PDFEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4060C91225171F96009E4681 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4060C91325171F96009E4681 /* SignatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureViewController.swift; sourceTree = "<group>"; };
+		4060C91425171F96009E4681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4060C91525171F96009E4681 /* THANEKAR copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "THANEKAR copy.png"; sourceTree = "<group>"; };
+		4060C91725171F96009E4681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4060C91825171F96009E4681 /* FORM16_16_BHAGWAN S.PAWAR (1269)_2019-20.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FORM16_16_BHAGWAN S.PAWAR (1269)_2019-20.pdf"; sourceTree = "<group>"; };
+		4060C91925171F96009E4681 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4060C91A25171F96009E4681 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4060C91B25171F96009E4681 /* PDFViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewerController.swift; sourceTree = "<group>"; };
+		40802FED24F82DE1003DDF1A /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26ECD3341E874B5B00380F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40802FEE24F82DE1003DDF1A /* PDFKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26ECD32E1E874B5B00380F56 = {
+			isa = PBXGroup;
+			children = (
+				4060C91125171F96009E4681 /* PDFEditor */,
+				26ECD3381E874B5C00380F56 /* Products */,
+				40802FEC24F82DE0003DDF1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26ECD3381E874B5C00380F56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26ECD3371E874B5C00380F56 /* PDFEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4060C91125171F96009E4681 /* PDFEditor */ = {
+			isa = PBXGroup;
+			children = (
+				4060C91225171F96009E4681 /* ViewController.swift */,
+				4060C91325171F96009E4681 /* SignatureViewController.swift */,
+				4060C91425171F96009E4681 /* Assets.xcassets */,
+				4060C91525171F96009E4681 /* THANEKAR copy.png */,
+				4060C91625171F96009E4681 /* Main.storyboard */,
+				4060C91825171F96009E4681 /* FORM16_16_BHAGWAN S.PAWAR (1269)_2019-20.pdf */,
+				4060C91925171F96009E4681 /* AppDelegate.swift */,
+				4060C91A25171F96009E4681 /* Info.plist */,
+				4060C91B25171F96009E4681 /* PDFViewerController.swift */,
+			);
+			path = PDFEditor;
+			sourceTree = "<group>";
+		};
+		40802FEC24F82DE0003DDF1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40802FED24F82DE1003DDF1A /* PDFKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26ECD3361E874B5B00380F56 /* PDFEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26ECD3461E874B5C00380F56 /* Build configuration list for PBXNativeTarget "PDFEditor" */;
+			buildPhases = (
+				26ECD3331E874B5B00380F56 /* Sources */,
+				26ECD3341E874B5B00380F56 /* Frameworks */,
+				26ECD3351E874B5B00380F56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFEditor;
+			productName = FileSpy;
+			productReference = 26ECD3371E874B5C00380F56 /* PDFEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26ECD32F1E874B5B00380F56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ray Wenderlich";
+				TargetAttributes = {
+					26ECD3361E874B5B00380F56 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 26ECD3321E874B5B00380F56 /* Build configuration list for PBXProject "PDFEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 26ECD32E1E874B5B00380F56;
+			productRefGroup = 26ECD3381E874B5C00380F56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26ECD3361E874B5B00380F56 /* PDFEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26ECD3351E874B5B00380F56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4060C92025171F96009E4681 /* Main.storyboard in Resources */,
+				4060C92125171F96009E4681 /* FORM16_16_BHAGWAN S.PAWAR (1269)_2019-20.pdf in Resources */,
+				4060C91E25171F96009E4681 /* Assets.xcassets in Resources */,
+				4060C92325171F96009E4681 /* Info.plist in Resources */,
+				4060C91F25171F96009E4681 /* THANEKAR copy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26ECD3331E874B5B00380F56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4060C92425171F96009E4681 /* PDFViewerController.swift in Sources */,
+				4060C92225171F96009E4681 /* AppDelegate.swift in Sources */,
+				4060C91C25171F96009E4681 /* ViewController.swift in Sources */,
+				4060C91D25171F96009E4681 /* SignatureViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4060C91625171F96009E4681 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4060C91725171F96009E4681 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26ECD3441E874B5C00380F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26ECD3451E874B5C00380F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		26ECD3471E874B5C00380F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PDFEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.signall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		26ECD3481E874B5C00380F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PDFEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.signall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26ECD3321E874B5B00380F56 /* Build configuration list for PBXProject "PDFEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26ECD3441E874B5C00380F56 /* Debug */,
+				26ECD3451E874B5C00380F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26ECD3461E874B5C00380F56 /* Build configuration list for PBXNativeTarget "PDFEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26ECD3471E874B5C00380F56 /* Debug */,
+				26ECD3481E874B5C00380F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26ECD32F1E874B5B00380F56 /* Project object */;
+}

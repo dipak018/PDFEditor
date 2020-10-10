@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
+        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097.3"/>
         <plugIn identifier="com.apple.pdfkit.ibplugin" version="16097.3"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -655,7 +656,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="FileSpy" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="PDFEditor" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
@@ -684,7 +685,7 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="FileSpy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="PDFEditor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="1033" height="683"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -696,7 +697,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="251" height="633"/>
                                         <clipView key="contentView" id="4eg-2k-Fmt">
                                             <rect key="frame" x="1" y="1" width="249" height="631"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" rowHeight="30" viewBased="YES" id="xo6-kP-ovj">
                                                     <rect key="frame" x="0.0" y="0.0" width="249" height="631"/>
@@ -711,7 +712,7 @@
                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                             </tableHeaderCell>
                                                             <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" title="Text Cell" id="wmm-8s-CzP">
-                                                                <font key="font" metaFont="titleBar"/>
+                                                                <font key="font" metaFont="label" size="13"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
@@ -730,7 +731,7 @@
                                                                             <rect key="frame" x="35" y="6" width="211" height="17"/>
                                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                             <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="Fa8-q9-TmE">
-                                                                                <font key="font" metaFont="titleBar"/>
+                                                                                <font key="font" metaFont="label" size="13"/>
                                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
@@ -785,27 +786,27 @@
                                 <rect key="frame" x="14" y="8" width="120" height="32"/>
                                 <buttonCell key="cell" type="push" title="Select Folder" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dby-S4-m5m">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="titleBar"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="selectFolderClicked:" target="XfG-lQ-9wD" id="biC-tb-kf6"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xBl-4b-TZr">
-                                <rect key="frame" x="923" y="8" width="96" height="32"/>
-                                <buttonCell key="cell" type="push" title="Save Info" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="KaH-H6-cPP">
+                                <rect key="frame" x="879" y="8" width="140" height="32"/>
+                                <buttonCell key="cell" type="push" title="Select Signature" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="KaH-H6-cPP">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="titleBar"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="saveInfoClicked:" target="XfG-lQ-9wD" id="aSh-v0-4Ux"/>
+                                    <action selector="selectSignatureButtonAction:" target="XfG-lQ-9wD" id="Dye-xm-JEJ"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZJ0-uN-TjU">
                                 <rect key="frame" x="172" y="8" width="86" height="32"/>
                                 <buttonCell key="cell" type="push" title="Sign All" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9EA-1U-DCa">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="titleBar"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="moveUpClicked:" target="XfG-lQ-9wD" id="tzn-iP-JzU"/>
@@ -827,7 +828,7 @@
                     </view>
                     <connections>
                         <outlet property="moveUpButton" destination="ZJ0-uN-TjU" id="zNm-qw-c3g"/>
-                        <outlet property="saveInfoButton" destination="xBl-4b-TZr" id="afX-BC-h4N"/>
+                        <outlet property="selectSignature" destination="xBl-4b-TZr" id="AuX-8Z-tWD"/>
                         <outlet property="tableView" destination="xo6-kP-ovj" id="6NL-I5-Zae"/>
                     </connections>
                 </viewController>
@@ -838,7 +839,7 @@
         <!--Signature View Controller-->
         <scene sceneID="2kw-Bu-Nqv">
             <objects>
-                <viewController id="sm2-5O-lnr" customClass="SignatureViewController" customModule="FileSpy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sm2-5O-lnr" customClass="SignatureViewController" customModule="PDFEditor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="Ux8-be-Jbj">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>

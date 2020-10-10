@@ -104,7 +104,9 @@ class SignatureViewController: NSViewController {
         
     func getSignatureAnnotation() -> SignaturePDFAnnotation {
         
-        let annotation = SignaturePDFAnnotation(NSImage(named: NSImage.Name(rawValue: "THANEKAR copy.png")), bounds: .zero, properties: nil)
+//        let annotation = SignaturePDFAnnotation(NSImage(named: NSImage.Name(rawValue: "THANEKAR copy.png")), bounds: .zero, properties: nil)
+        let annotation = SignaturePDFAnnotation(NSImage(contentsOf: selectedSignatureURL), bounds: .zero, properties: nil)
+        
         
         annotation.color = .clear
         let border = PDFBorder()
